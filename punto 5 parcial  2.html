@@ -1,0 +1,95 @@
+<html>
+    <header>
+        <h1>segundo parcial pregunta 5</h1>
+    </header>
+    <body>
+        <p>El código logic es una implementación de un sistema para representar y evaluar expresiones lógicas. 
+            contine  diferemtes partes clave o fundamentales  que  dentro  del  algoritmo  que son 
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Clase / Función</th>
+                    <th>Descripción</th>
+                    <th>Aplicaciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sentence</td>
+                    <td>
+                        Clase base para representar oraciones lógicas. Define métodos abstractos como 
+                        <code>evaluate</code>, <code>formula</code> y <code>symbols</code>.
+                    </td>
+                    <td>
+                        Utilizada en sistemas de lógica matemática y razonamiento en IA.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Symbol</td>
+                    <td>
+                        Representa un símbolo lógico (ej. proposiciones como <code>p</code>, <code>q</code>).
+                        Implementa métodos para evaluar su valor en un modelo.
+                    </td>
+                    <td>
+                        Permite la representación de proposiciones en un sistema lógico.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Not</td>
+                    <td>
+                        Representa la negación lógica. Evalúa el valor del operando invirtiéndolo.
+                    </td>
+                    <td>
+                        Usada para construir expresiones complejas a partir de proposiciones simples.
+                    </td>
+                </tr>
+                <tr>
+                    <td>And</td>
+                    <td>
+                        Representa la conjunción lógica (Y). Evalúa si todas las conjunciones son verdaderas.
+                    </td>
+                    <td>
+                        Permite crear expresiones que deben cumplirse simultáneamente.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Or</td>
+                    <td>
+                        Representa la disyunción lógica (O). Evalúa si al menos una de las disyunciones es verdadera.
+                    </td>
+                    <td>
+                        Utilizada para expresar opciones o alternativas en proposiciones.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Implication</td>
+                    <td>
+                        Representa la implicación lógica (si... entonces...). Evalúa la relación condicional entre dos proposiciones.
+                    </td>
+                    <td>
+                        Usada para representar reglas y condiciones en sistemas de conocimiento.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Biconditional</td>
+                    <td>
+                        Representa la bicondicional lógica (si y solo si). Evalúa si ambas proposiciones tienen el mismo valor de verdad.
+                    </td>
+                    <td>
+                        Permite expresar equivalencias entre proposiciones.
+                    </td>
+                </tr>
+                <tr>
+                    <td>model_check</td>
+                    <td>
+                        Verifica si una base de conocimiento implica una consulta. Utiliza búsqueda por modelos.
+                    </td>
+                    <td>
+                        Usada en sistemas de razonamiento para validar deducciones lógicas.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
